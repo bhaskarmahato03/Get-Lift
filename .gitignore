@@ -1,0 +1,12 @@
+# Dependencies and generated output
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Python cache files
+__pycache__/
+
+# Local environment files (keep the example template trackable)
+.env
+.env.*
+!.env.example
