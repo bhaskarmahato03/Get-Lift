@@ -29,9 +29,9 @@ function RideAction({ children }) {
   )
 }
 
-function Home() {
+function Home({ onNavigate }) {
   return (
-    <MainLayout>
+    <MainLayout onNavigate={onNavigate}>
         <section className="relative isolate bg-slate-50" aria-labelledby="hero-title">
           <div className="absolute -right-28 -top-36 -z-10 size-[30rem] rounded-full bg-blue-100/70 blur-3xl" />
           <div className="mx-auto grid max-w-7xl items-center gap-10 px-5 pb-16 pt-14 sm:px-8 sm:pb-20 sm:pt-20 lg:grid-cols-[1fr_0.9fr] lg:gap-12 lg:py-24">

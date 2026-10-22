@@ -1,12 +1,12 @@
 import Navbar from '../components/Navbar.jsx'
 import Footer from '../components/Footer.jsx'
 
-function MainLayout({ children }) {
+function MainLayout({ children, onNavigate }) {
   return (
     <div id="home" className="min-h-screen overflow-hidden bg-white text-slate-900">
-      <Navbar />
+      <Navbar onNavigate={onNavigate} />
       <main>{children}</main>
-      <Footer />
+      <Footer onNavigate={onNavigate} />
     </div>
   )
 }
