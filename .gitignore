@@ -5,6 +5,11 @@ frontend/dist/
 
 # Python cache files
 __pycache__/
+venv/
+.venv/
+backend/venv/
+backend/.venv/
+*.py[cod]
 
 # Local environment files (keep the example template trackable)
 .env
